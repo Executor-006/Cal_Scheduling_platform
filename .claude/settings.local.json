@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm init:*)",
+      "Bash(npx create-react-app@latest client)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(npx react-scripts:*)",
+      "Bash(node -e \"require\\(''./src/app''\\)\")",
+      "Bash(dir \"C:\\\\Program Files\\\\PostgreSQL\"\" 2>nul || echo \"Not in Program Files \")",
+      "Read(//c/Program Files/PostgreSQL//**)",
+      "Read(//c/Program Files \\(x86\\)/**)",
+      "Bash(where.exe psql:*)",
+      "Bash(pandoc \"C:\\\\Users\\\\sharm\\\\Downloads\\\\Scaler_SDE_Intern_Fullstack_Assignment_-_Cal_Clone.docx\" -o /tmp/assignment.md)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c \":*)",
+      "WebFetch(domain:app.cal.com)",
+      "Bash(python3 \"C:\\\\Users\\\\sharm\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\a1719f63-f9e6-4951-b2bf-eada1c6b67b0\\\\a4f0bd01-1f0c-46ee-8d3b-6e1be79b5097\\\\skills\\\\docx\\\\scripts\\\\office\\\\unpack.py\" \"C:\\\\Users\\\\sharm\\\\Downloads\\\\Scaler_SDE_Intern_Fullstack_Assignment_-_Cal_Clone.docx\" \"C:\\\\Users\\\\sharm\\\\Downloads\\\\assignment_unpacked\")",
+      "Bash(pandoc --version)"
+    ]
+  }
+}
