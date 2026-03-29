@@ -1,6 +1,6 @@
-import { Calendar } from 'lucide-react';
 import Sidebar from './Sidebar';
 import BottomNav from './BottomNav';
+import BrandMark from './BrandMark';
 
 export default function Shell({ children }) {
   return (
@@ -9,10 +9,7 @@ export default function Shell({ children }) {
 
       {/* Mobile top bar — logo only, no hamburger */}
       <div className="lg:hidden fixed top-0 left-0 right-0 z-30 bg-white border-b border-gray-200 px-4 py-3 flex items-center gap-2">
-        <div className="w-7 h-7 bg-gray-900 rounded-md flex items-center justify-center">
-          <Calendar size={14} className="text-white" />
-        </div>
-        <span className="text-sm font-bold text-gray-900 tracking-tight">Cal Clone</span>
+        <BrandMark compact />
       </div>
 
       <main className="lg:ml-56 pt-14 lg:pt-0 min-h-screen pb-16 lg:pb-0">

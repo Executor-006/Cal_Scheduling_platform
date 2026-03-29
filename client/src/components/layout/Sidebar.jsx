@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { Calendar, Clock, CalendarCheck, User } from 'lucide-react';
 import useUser from '../../hooks/useUser';
+import BrandMark from './BrandMark';
 
 const navItems = [
   { to: '/dashboard', label: 'Event Types', icon: Calendar },
@@ -15,12 +16,7 @@ export default function Sidebar() {
     <aside className="hidden lg:flex fixed left-0 top-0 z-50 h-screen bg-white border-r border-gray-200 flex-col w-56">
       {/* Logo */}
       <div className="h-14 px-4 flex items-center border-b border-gray-100">
-        <div className="flex items-center gap-2">
-          <div className="w-7 h-7 bg-gray-900 rounded-md flex items-center justify-center">
-            <Calendar size={14} className="text-white" />
-          </div>
-          <span className="text-sm font-bold text-gray-900 tracking-tight">Cal Clone</span>
-        </div>
+        <BrandMark />
       </div>
 
       {/* Navigation */}
